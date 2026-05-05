@@ -18,7 +18,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FDFCFB] p-4">
+    <div className="min-h-screen flex items-center justify-center bg-black p-4">
       <div className="w-full max-w-md">
         {/* Logo */}
         {/* Logo */}
@@ -31,7 +31,7 @@ export default function LoginPage() {
               className="object-contain"
             />
           </div>
-          <p className="text-gray-500 text-sm font-medium mt-1">Admin Portal Access</p>
+          <p className="text-white text-sm font-medium mt-1">Admin Portal Access</p>
         </div>
 
         {/* Login Card */}
@@ -104,7 +104,7 @@ export default function LoginPage() {
             {/* Login Button */}
             <button
               type="submit"
-              className="w-full bg-[#F5A623] hover:bg-[#E09512] text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg shadow-[#F5A623]/20 active:scale-[0.98] mt-2"
+              className="w-full bg-[#F5A623] hover:bg-[#E09512] text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg shadow-white active:scale-[0.98] mt-2"
             >
               Sign In
             </button>
@@ -112,8 +112,8 @@ export default function LoginPage() {
         </div>
 
         {/* Footer info */}
-        <p className="text-center text-gray-500 text-sm mt-8">
-          By logging in, you agree to our <span className="font-bold text-gray-700 underline cursor-pointer">Security Policies</span>.
+        <p className="text-center text-white text-sm mt-8">
+          By logging in, you agree to our <span className="font-bold text-[#F5A623]/80 underline cursor-pointer">Security Policies</span>.
         </p>
       </div>
     </div>
